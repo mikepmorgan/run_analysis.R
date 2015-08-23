@@ -9,15 +9,17 @@ Additionally, these observations are split by activity type. Activity type denot
 
 The remaining observations are: 
 
-mean: Mean value
-std: Standard deviation
+1. mean: Mean value
+2. std: Standard deviation
 
 Other keys: 
 
 (Please note: I could have easily changed the columns to be the longer name. However, I found the long-form column names to be very clunky and not helpful. I think it is easier to just know what acc or gyro stands for rather than dealing with very long column names.) 
 
-Acc = accelerometer
-Gyro = gyroscope
+1. Acc = accelerometer
+2. Gyro = gyroscope
+3. Train = observation during training period 
+4. Test = observation during testing period 
 
 The column names are below (copied from R): 
 
