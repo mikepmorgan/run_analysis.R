@@ -72,13 +72,9 @@ The column names are below (copied from R):
 [49] "fBodyGyroJerkMag_meanFreq"           
 [50] "angle(tBodyAccMean,gravity)"         
 [51] "angle(tBodyAccJerkMean),gravityMean)"
-
 [52] "angle(tBodyGyroMean,gravityMean)"    
-
 [53] "angle(tBodyGyroJerkMean,gravityMean)"
-
 [54] "angle(X,gravityMean)"      
-
 [55] "angle(Y,gravityMean)"                
 [56] "angle(Z,gravityMean)"                
 [57] "tBodyAcc_std-X"                      
