@@ -12,14 +12,14 @@ The remaining observations are:
 1. mean: Mean value
 2. std: Standard deviation
 
-Other keys: 
+Other keys and unit notes: 
 
 (Please note: I could have easily changed the columns to be the longer name. However, I found the long-form column names to be very clunky and not helpful. I think it is easier to just know what acc or gyro stands for rather than dealing with very long column names.) 
 
-1. Acc = accelerometer
-2. Gyro = gyroscope
-3. Train = observation during training period 
-4. Test = observation during testing period 
+1. Acc = acceleration from the accelerometer (total acceleration) and the estimated body acceleration
+2. Gyro = Triaxial Angular velocity from the gyroscope
+3. Leading "t" = Time domain unit 
+4. Leading "f" = Frequency domain siginals unit 
 
 The column names are below (copied from R): 
 
