@@ -1,7 +1,7 @@
 # Code Book
 
 
-##Base Assumption: User has downloaded the ```UCI Data``` Set and unzipped the data into their WD.
+##Base Assumption: User has downloaded the UCI Data Set and unzipped the data into their WD.
 
 ###Copying and pasting the script into R will result in the following steps being performed: 
 
