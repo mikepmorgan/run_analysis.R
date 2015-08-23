@@ -3,8 +3,21 @@
 
 ##Base Assumption: User has downloaded the UCI Data Set and unzipped the data into their WD.
 
-
 The remaining columns in the tidy data file are only for the observations related to the standard deviation and the mean. 
+
+Additionally, these observations are split by activity type. Activity type denotes if a given activity (e.g. ```SITTING``` by subject 2) was observed during training, or during testing. Activitydesc indicates what the activity is, for instance, walking, sitting, or walking up or down the stairs. The ```subject``` column is the observed participant in the studies, and ```subjectsource``` is whether the subject was sourced from training or testing. 
+
+The remaining observations are: 
+
+mean: Mean value
+std: Standard deviation
+
+Other keys: 
+
+(Please note: I could have easily changed the columns to be the longer name. However, I found the long-form column names to be very clunky and not helpful. I think it is easier to just know what acc or gyro stands for rather than dealing with very long column names.) 
+
+Acc = accelerometer
+Gyro = gyroscope
 
 The column names are below (copied from R): 
 
