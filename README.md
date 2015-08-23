@@ -5,5 +5,6 @@ The repo ```run_analysis.R``` contains the code needed to run the file. The code
 
 The ```Code Book``` describes the code used to run the file, so a user can understand the output. 
 
+Finally, the ```tidy``` data has been pushed to GitHub as its own file. 
 
 
