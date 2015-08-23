@@ -13,4 +13,4 @@
 6.  These files are then joined together using ```rbind```. This new file, ```merged``` is given unique names using the ```make.unique``` command on an indexed vector. There are duplicate names in the features description, which are then made singular. 
 7.  The merged file is reduced to contain just the columns needed for the final analysis, including columns for the mean, STD, and activity/subjects. This is done by using ```select``` from dplyr.
 8.  A tidy data set is created using the ```group_by``` and ```summarise_each``` commands in dplyr. The file has 91 variables (some are unneeded, like the original activity index, but do not hamper the analysis) and 180 observations. 
-9.  ```write.table``` is used to putpul a file called "tidy.txt" to a user's working directory. 
+9.  ```write.table``` is used to output a file called "tidy.txt" to a user's working directory. 
