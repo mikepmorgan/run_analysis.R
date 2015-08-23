@@ -66,12 +66,13 @@ names(merged) <- x$x
 
 merged <- select(merged, contains("MEAN"), contains("mean"), contains("STD"), contains("subject"), contains("subjectsource"), contains("activity"), contains("activitytype"), contains("activitydesc"))
 
-#clean up some column names
+        
+tidy <-  merged %>% group_by(subject, activitytype, activitydesc) %>% summarise_each(funs(mean))
+        
+        #clean up some column names
         setnames(tidy, colnames(tidy), sub("BodyBody", "Body", colnames(tidy)))
         setnames(tidy, colnames(tidy), sub("-", "_", colnames(tidy)))
         setnames(tidy, colnames(tidy), sub("\\(\\)", "", colnames(tidy)))
-        
-tidy <-  merged %>% group_by(subject, activitytype, activitydesc) %>% summarise_each(funs(mean))
 
 
 write.table(tidy, file = "./tidy.txt", row.name=FALSE)
