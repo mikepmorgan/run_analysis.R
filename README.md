@@ -5,5 +5,5 @@ The repo ```run_analysis.R``` contains the code needed to run the file. The code
 
 The ```Code Book``` describes the code used to run the file, so a user can understand the output. 
 
-The ```Tidy Data``` set contains the text file of the output. 
+
 
