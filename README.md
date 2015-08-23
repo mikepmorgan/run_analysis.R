@@ -1,5 +1,5 @@
 # Getting and Cleaning Data Project
-run_analysis.R Project
+
 
 The repo "run_analysis.R" contains the code needed to run the file. The code is predicated on a user having downloaded the UCI HAR Dataset into their working directory, and having unzipped the files. 
 
